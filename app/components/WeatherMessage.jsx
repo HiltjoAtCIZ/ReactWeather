@@ -5,9 +5,9 @@ var WeatherMessage = React.createClass({
 		var location = this.props.location;
 		var temp = this.props.temp;
 		return (
-			<div>
+			<h3 className="text-center">
 				The temperature in {location} is {temp}
-			</div>
+			</h3>
 		);
 	}
 });
